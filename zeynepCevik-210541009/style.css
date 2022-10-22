@@ -1,0 +1,234 @@
+body{
+    background-image: radial-gradient(circle at center center, rgba(58, 137, 180, 0) 0px, rgba(58, 137, 180, 0.8) 100%) ;
+}
+#container{
+    display: flexbox;
+    width: 700px;
+    height: 300px;
+    position: center;
+    background-color:white;
+    transition: 0.25s;
+    margin-left: 30%;
+    margin-top:10%;
+    border-radius: 10px;
+    height: 580px;
+}
+
+ #usttekiedevlet{
+    margin-top: 2%;
+    width:100% ;
+}
+ #table1{
+    display: inline-block;
+}
+
+#containerdiv #table1 .td1{
+    font-family: 'Open Sans',sans-serif;
+    text-align: left;
+    padding-left: 35px;
+    font-size: 35%;
+    color: #545657;
+}
+#container div #table1 .td2{
+    text-align: left;
+    font-weight:bold;
+    font-family: 'Open Sans',sans-serif;   
+    padding-left: 10%;
+    font-size: 13px;
+    color: #5F8BB4;
+    width: 200px;
+}
+#container div #govtr{
+    padding-left:70%;
+}
+#container #icerik{
+    margin: 2%;
+    border: 1px solid rgb(216,231,240);
+    border-radius:3px;
+}
+
+#container #icerik #Giris-sec{
+    display: flex;
+}
+#container #icerik #Giris-sec .navbar{
+    margin-left: 1%;
+    padding-right: 1%;
+    border-right: 1px solid  rgb(216,231,240);
+    
+}
+
+#container #icerik #Giris-sec .navbar .ikonlar{
+    margin-bottom: 1%;
+    cursor:pointer ;
+}
+#container  #icerik #Giris-sec .navbar .btn1{
+    background-color: rgba(173, 216, 230, 0);
+    border: 0;
+    cursor:pointer ;
+    margin: 15px 0px;
+    
+}
+#container #icerik #Giris-sec .nav-item-last{
+    margin-top: 0.5%;
+    cursor:pointer ;
+    margin-left: 1%;
+}
+#container #icerik #Giris-sec .navbar :last-child {
+    background-color: rgba(173, 216, 230, 0);
+    border: 0;
+    cursor:pointer ;
+    margin: 15px 0px;
+}
+#container #icerik p{
+    margin-top: -0.5%;
+    padding-left: 15px;
+    margin-bottom: -0.1%;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 14px;
+    color: #4A4E50;
+}
+#container #icerik a{
+    font-family: 'Open Sans',sans-serif;
+    font-size: 13px;
+    color: #5F8BB4;
+    text-decoration: none;
+}
+.hr2{
+    width: 95%;
+    margin-top: 2%;
+    opacity: 0.1;
+}
+#iconKitap{
+    padding-left: 15px;
+    margin-bottom: -0.5%;
+}
+.td3{
+    font-family: 'Open Sans',sans-serif;
+    padding-left: 15px;
+    font-size: 14px;
+    color: #4A4E50;
+    width: 33%;
+}
+.td4 {
+    width: 270px;
+}
+.td4 input{
+    border: 1px solid rgba(0, 0, 0, 0.466);
+    border-radius: 3px;
+    height: 30px;
+    width: 250px;
+    margin-right: 50%;
+
+}
+.td5{
+    width: 120px;
+    cursor:pointer ;
+}
+
+
+
+.td7{
+    padding-left: 120px;
+    font-size: 12px;
+    font-family: 'Open Sans',sans-serif;
+    color: #4A4E50;
+    width: 31.5%;
+}
+
+
+ #hr1{
+    margin-top: -0.4%;
+    float:initial;
+    width: 55%;
+    opacity: 0.5; 
+}
+ #hr1-2{
+    margin-top: -0.4%;
+    float: right;
+    width: 23.5%;
+    opacity: 0.5; 
+}
+ 
+#container #icerik  #hr1{
+    margin-top: -0.4%;
+    float: left;
+    width: 100%;
+    opacity: 0.5; 
+}
+#butonlar
+{
+    display: flex;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 250px;
+    padding-top: -40px;
+}
+#girisYap{
+    margin:2%;
+    background-color: #347AA1;
+    color: white;
+    border-radius: 45px;
+    font-weight: 400;
+    width: 110px;
+    height: 37px;
+    font-size: 15px;
+    border: 1px rgba(52,122,161,.3) solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#iptal
+ {
+    background-color: #F6F6F6 ;
+    color: rgba(74,78,80,.9);
+    border-radius: 45px;
+    font-weight: 400;
+    width: 100px;
+    height: 37px;
+    font-size: 15px;
+    border: 1px rgba(52,122,161,.3) solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:2%;
+}
+ 
+#container #icerik #butonlar{
+    display:flex;
+    margin-left: 35%;
+    padding-bottom: 2%;
+}
+ 
+
+#container #alt a{
+    float: right;
+    margin-right: 2%;
+    text-decoration: none;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 13px;
+    color: #5F8BB4;
+}
+
+#hizala
+{
+margin:-275px;
+
+padding-left: 220px;
+padding-right: 265px;
+
+}
+
+
+
+#container #alt #solaYasla{
+    font-size: 12px;
+    font-family: 'Open Sans',sans-serif;
+    color: #4a4e509f;
+    float: left;
+}
+
+
+
+
